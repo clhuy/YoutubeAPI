@@ -12,9 +12,27 @@ body {
 	padding-left: 5.0vw !important;
 	padding-right: 5.0vw !important;
 	padding-top:  2.5vw;
+	max-height: 50vw;
+	overflow: scroll;
 }
 
 .input-group {
 	padding-right: 30.0vw;
 	padding-left:  30.0vw;
+}
+
+.thumb {
+	margin-bottom: 10px;
+}
+
+#frame {
+	height: 270px;
+	width: 480px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#frame-div {
+	text-align: center;
+	margin-top: 10px;
 }
